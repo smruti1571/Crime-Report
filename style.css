@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-color: #000066;
+    background: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    
+}
+.box{
+    width: 200px;
+    
+    position: absolute;
+    top: 200px;
+    bottom: 200px;
+    right: 150x;
+    transform: translate(80%,50%);
+    color: white;
+    text-align: center;
+    
+}
+.box input[type ="text"],.box input[type ="text"],.box input[type ="time"],.box input[type ="date"]
+{
+border:0;
+    background: none;
+    display: block;
+    margin: 3px auto;
+    text-align: center;
+    border: 2px solid #004080;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}.box input[type ="text"]:focus,.box input[type ="text"]:focus,.box input[type ="time"]:focus,.box input[type ="date"]:focus
+{
+    width: 280px;
+    border-color: #66ffcc;
+}
+
+.box input[type="submit"]
+{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+cursor: pointer;
+    
+}
+.box input[type="submit"]:hover
+{
+    background: #2ecc71;
+}
